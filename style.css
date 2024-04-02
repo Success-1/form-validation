@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form input{
+    display: block;
+}
+
+.error input{
+    border: 1px solid tomato;
+}
+
+.error small{
+    color: red;
+}
+.success input{
+    border: 1px solid #08eb08;
+}
